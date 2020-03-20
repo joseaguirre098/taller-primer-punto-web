@@ -1,0 +1,24 @@
+<!--
+
+    Autor: John Villamil
+    NRC: 7478
+    Descripcion:Uso de JavaScrip para el manejo de valores en los atributos de un HTML
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+</head>
+<body>
+    <h2>Ejemplo de programa con JavaScrip</h2>
+    <p>JavaScrip puede cambiar los valores los atributos de HTML</p>
+    <p>Se cambiaran los valores de un atributo de imagen</p>
+    <button onclick="document.getElementById('myImage').src='image/light1.png'">Enciende la luz</button>
+    <img id='myImage' src="image/ligth0.png" style="widows: 100px">
+    <button onclick="document.getElementById('myImage').src='image/light0.png'">Apaga la luz</button>
+</body>
+</html>
